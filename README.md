@@ -57,7 +57,7 @@ Available: 2.6 GB
 
 1. **Clone the repository:**
    ```bash
-   https://github.com/satyamjhablockdev/system_usage_tool.git
+   git clone https://github.com/satyamjhablockdev/system_usage_tool.git
    cd system_usage_tool
    ```
 
