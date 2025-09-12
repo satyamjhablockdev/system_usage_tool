@@ -57,6 +57,8 @@ Available: 2.6 GB
 ### Automatic 
 ```bash
 wget https://raw.githubusercontent.com/satyamjhablockdev/system_usage_tool/main/system_monitor.py
+python3 -m venv myenv
+source myenv/bin/activate
 pip install psutil
 python3 system_monitor.py
 ```
