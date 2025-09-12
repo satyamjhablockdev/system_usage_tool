@@ -48,12 +48,19 @@ Available: 2.6 GB
 ```
 
 ## 🚀 Quick Start
+**Direct download and run:**
 
 ### Prerequisites
 - Python 3.6 or higher
 - `psutil` library
-
-### Installation
+## Installation
+### Automatic 
+```bash
+wget https://raw.githubusercontent.com/satyamjhablockdev/system_usage_tool/main/system_monitor.py
+pip install psutil
+python3 system_monitor.py
+```
+### Manual
 
 1. **Clone the repository:**
    ```bash
@@ -75,20 +82,6 @@ Available: 2.6 GB
    ```bash
    python3 system_monitor.py
    ```
-
-### Alternative Installation Methods
-
-**Direct download and run:**
-```bash
-wget https://raw.githubusercontent.com/satyamjhablockdev/system_usage_tool/main/system_monitor.py
-pip install psutil
-python3 system_monitor.py
-```
-
-**One-liner install:**
-```bash
-curl -sSL https://raw.githubusercontent.com/satyamjhablockdev/system_usage_tool/main/install.sh | bash
-```
 
 ## 💡 Usage
 
