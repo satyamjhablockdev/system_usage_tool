@@ -57,8 +57,8 @@ Available: 2.6 GB
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/advanced-system-monitor.git
-   cd advanced-system-monitor
+   https://github.com/satyamjhablockdev/system_usage_tool.git
+   cd system_usage_tool
    ```
 
 2. **Install dependencies:**
@@ -80,14 +80,14 @@ Available: 2.6 GB
 
 **Direct download and run:**
 ```bash
-wget https://raw.githubusercontent.com/YOUR_USERNAME/advanced-system-monitor/main/system_monitor.py
+wget https://raw.githubusercontent.com/satyamjhablockdev/system_usage_tool/main/system_monitor.py
 pip install psutil
 python3 system_monitor.py
 ```
 
 **One-liner install:**
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/advanced-system-monitor/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/satyamjhablockdev/system_usage_tool/main/install.sh | bash
 ```
 
 ## 💡 Usage
