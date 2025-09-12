@@ -29,9 +29,15 @@ echo "✅ Python $python_version found"
 # Install pip if not available
 if ! command -v pip3 &> /dev/null; then
     echo "📦 Installing pip..."
-    curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-    python3 get-pip.py --user
-    rm get-pip.py
+    if [[ -n "$VIRTUAL_ENV" ]]; then
+        curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+        python3 get-pip.py
+        rm get-pip.py
+    else
+        curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+        python3 get-pip.py --user
+        rm get-pip.py
+    fi
 fi
 
 # Install psutil
@@ -40,7 +46,7 @@ pip3 install psutil --user
 
 # Download the system monitor
 echo "📥 Downloading Advanced System Monitor..."
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/advanced-system-monitor/main/system_monitor.py -o system_monitor.py
+curl -sSL https://raw.githubusercontent.com/satyamjhablockdev/system_usage_tool/main/system_monitor.py -o system_monitor.py
 
 # Make it executable
 chmod +x system_monitor.py
