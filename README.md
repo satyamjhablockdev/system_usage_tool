@@ -57,6 +57,7 @@ Available: 2.6 GB
 ### Automatic 
 ```bash
 wget https://raw.githubusercontent.com/satyamjhablockdev/system_usage_tool/main/system_monitor.py
+apt install python3.10-venv
 python3 -m venv myenv
 source myenv/bin/activate
 pip install psutil
